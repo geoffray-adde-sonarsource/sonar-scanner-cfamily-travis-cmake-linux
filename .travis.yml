@@ -4,7 +4,6 @@ sudo: false
 addons:
   sonarcloud:
     organization: "geoffray-adde-sonarsource-github"
-    projectKey: "sonar-scanner-cfamily-travis-cmake-linux"
 
 script:
   - mkdir build
